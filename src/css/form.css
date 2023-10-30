@@ -1,0 +1,101 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilos para o contêiner do formulário */
+.form {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #50246d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    max-width: 800px;
+
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+    color: #f7f7f7;
+}
+
+/* Estilos para os rótulos dos campos */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+/* Estilos para os campos de entrada de texto */
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para o botão de login */
+button[type="submit"] {
+    background-color: #50246d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Estilos para o link de registro */
+a {
+    display: block;
+    margin-top: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Estilos para o link de registro em hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 600px) {
+    .form {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button[type="submit"] {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}

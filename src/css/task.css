@@ -1,0 +1,198 @@
+/* Estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-size: cover;
+  background-color: #27273c;
+  color: #fff;
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.container2 {
+  flex: 1;
+  margin: 20px 20px;
+}
+
+.container2 {
+  margin: 15px;
+  padding-top: 15px;
+}
+
+#hello,
+h1,
+h2 {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.container2 h2 {
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #50246d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#areauser {
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #50246d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #50246d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+input[type="text"],
+input[type="date"] {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+ul li {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #8b44bb;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 16px;
+  backdrop-filter: blur(2px);
+}
+
+.button,
+.save-button,
+.cancel-button,
+.complete-button,
+.edit-button,
+.delete-button,
+.undo-complete-button {
+  background-color: #50246d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.save-button,
+.cancel-button,
+.complete-button:hover {
+  background-color: #8b44bb;
+}
+
+.button,
+.edit-button,
+.delete-button,
+.undo-complete-button {
+  margin-top: 20px;
+}
+
+i {
+  padding-right: 10px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .container,
+  .container2 {
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+  }
+
+  .button,
+  .save-button,
+  .cancel-button,
+  .complete-button {
+    padding: 8px 16px;
+    margin: 5px 0;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.tasknamee {
+  font-size: 30px;
+}

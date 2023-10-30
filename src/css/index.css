@@ -1,0 +1,71 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Estilos para o corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    z-index: 1;
+    position: relative;
+    max-width: 800px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #50246d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+    color: #fff;
+    font-size: 1.95rem;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o parágrafo de saudação */
+p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os links de registro e login */
+a {
+
+    text-decoration: none;
+    background-color: #6a33804f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #666666;
+}
+
+i {
+    padding-right: 10px;
+}
